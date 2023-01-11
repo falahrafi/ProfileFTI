@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context=".DetailDosenActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_profile_fti_short" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_photo"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                app:civ_border_width="6dp"
+                app:civ_border_color="#EEEEEE"
+                android:src="@drawable/photo_eddy_nurraharjo"/>
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                android:fontFamily="@font/mavenpro_bold"
+                android:text="Nama Dosen"
+                android:textColor="@color/black"
+                android:textSize="24sp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="32dp"
+                android:layout_marginHorizontal="32dp"
+                android:paddingVertical="42dp"
+                android:background="@drawable/custom_background_white_outline_red"
+                android:elevation="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_button_primary"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/jenis_kelamin"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tv_jenis_kelamin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Laki-Laki"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <!-- Garis Horizontal -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginHorizontal="32dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="24dp"
+                    android:background="#DDD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_button_primary"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/jabatan_fungsional"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tv_jabatan_fungsional"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Lektor"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <!-- Garis Horizontal -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginHorizontal="32dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="24dp"
+                    android:background="#DDD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_button_primary"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Pendidikan Tertinggi"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tv_pendidikan_tertinggi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="S2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <!-- Garis Horizontal -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginHorizontal="32dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="24dp"
+                    android:background="#DDD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_button_primary"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/status_ikatan_kerja"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tv_status_ikatan_kerja"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Dosen Tetap"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <!-- Garis Horizontal -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginHorizontal="32dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="24dp"
+                    android:background="#DDD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_button_primary"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/status_aktivitas"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tv_status_aktivitas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Aktif"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_kembali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="48dp"
+                android:background="@drawable/custom_button_black"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:paddingBottom="8dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/kembali"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:backgroundTint="@null"
+                app:icon="@drawable/ic_baseline_keyboard_backspace_24"
+                app:iconSize="22dp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</ScrollView>

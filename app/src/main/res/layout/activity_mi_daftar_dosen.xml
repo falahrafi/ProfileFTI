@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context=".MiDaftarDosenActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_leader"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="48dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_leader" />
+
+        <TextView
+            android:id="@+id/tv_daftar_dosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_below="@id/iv_leader"
+            android:fontFamily="@font/mavenpro_bold"
+            android:text="@string/daftar_dosen"
+            android:textColor="@color/black"
+            android:textSize="28sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_dosens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_daftar_dosen"
+            tools:listitem="@layout/item_row_dosen" />
+
+        <Button
+            android:id="@+id/btn_kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="48dp"
+            android:layout_below="@id/rv_dosens"
+            android:background="@drawable/custom_button_black"
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"
+            android:paddingRight="32dp"
+            android:paddingBottom="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/kembali"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:backgroundTint="@null"
+            app:icon="@drawable/ic_baseline_keyboard_backspace_24"
+            app:iconSize="22dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

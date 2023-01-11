@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_profile_fti_large"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:src="@drawable/logo_unisbank" />
+
+        <!-- BEGIN : Text "Profile FTI" -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8sp"
+                android:fontFamily="@font/mavenpro_bold"
+                android:text="@string/profile"
+                android:textColor="@color/white"
+                android:textSize="36sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mavenpro_bold"
+                android:text="@string/fti"
+                android:textColor="#FFF301"
+                android:textSize="36sp"/>
+
+        </LinearLayout>
+        <!-- END : Text "Profile FTI" -->
+
+        <ProgressBar
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:indeterminateTint="@color/yellow_x1"/>
+
+    </LinearLayout>
+
+</FrameLayout>

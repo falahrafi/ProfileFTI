@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context=".SiKompetensiActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="48dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_statistics" />
+
+
+        <!-- BEGIN : Kompetensi Utama -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginHorizontal="32dp"
+                android:paddingHorizontal="24dp"
+                android:paddingTop="38dp"
+                android:paddingBottom="24dp"
+                android:background="@drawable/custom_background_white_outline_red"
+                android:elevation="8dp">
+
+                <!-- Kompetensi Utama a -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="a"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_a"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama b -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="b"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_b"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama c -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="c"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_c"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama d -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="d"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_d"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama e -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="e"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_e"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama f -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="f"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_f"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama g -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="g"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_g"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama h -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="h"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_h"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama i -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="i"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_i"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama j -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="j"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_j"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama k -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="k"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_k"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama l -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="l"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_l"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama m -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="m"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_m"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama n -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="n"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_n"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama o -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="o"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_o"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama p -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="p"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_p"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama q -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="q"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_q"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama r -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="r"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_r"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama s -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="s"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_s"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+                <!-- Kompetensi Utama t -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/custom_button_primary"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="t"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="8dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/si_ku_t"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="32dp"
+                android:paddingVertical="6dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/custom_button_primary"
+                android:elevation="8dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/kompetensi_utama"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+        </FrameLayout>
+        <!-- END : Kompetensi Utama -->
+
+        <Button
+            android:id="@+id/btn_kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="48dp"
+            android:background="@drawable/custom_button_black"
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"
+            android:paddingRight="32dp"
+            android:paddingBottom="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/kembali"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:backgroundTint="@null"
+            app:icon="@drawable/ic_baseline_keyboard_backspace_24"
+            app:iconSize="22dp" />
+
+    </LinearLayout>
+
+</ScrollView>

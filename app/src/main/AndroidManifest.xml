@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.falahrafi.latihan.pammaml03">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Profile FTI"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PAMMAML03">
+        <activity
+            android:name=".DetailDosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MiKompetensiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SiKompetensiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TiKompetensiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MiDaftarDosenActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarWhite" />
+        <activity
+            android:name=".SiDaftarDosenActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarWhite" />
+        <activity
+            android:name=".TiDaftarDosenActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarWhite" />
+        <activity
+            android:name=".MiVisiMisiActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarWhite" />
+        <activity
+            android:name=".SiVisiMisiActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarWhite" />
+        <activity
+            android:name=".TiVisiMisiActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarWhite" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarYellow" />
+        <activity
+            android:name=".ManajemenInformatikaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarBlack" />
+        <activity
+            android:name=".SistemInformasiActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarBlack" />
+        <activity
+            android:name=".TeknikInformatikaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PAMMAML03.statusBarBlack" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
